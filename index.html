@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Okey</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1><span class="red">Todo</span> <span class="black">Okey</span></h1>
+        <button id="change-bg">Cambia Sfondo</button>
+    </header>
+    <main>
+        <input type="text" id="task-input" placeholder="Aggiungi un'attività...">
+        <button id="add-task">Aggiungi</button>
+        <section id="task-container">
+            <div id="todo-list" class="task-list">
+                <h2>Da Fare <span class="pin-icon">📌</span></h2>
+            </div>
+            <div id="done-list" class="task-list">
+                <h2>Fatto <span class="check-icon">✅</span></h2>
+            </div>
+        </section>
+        <button id="favorites-btn">⭐ Preferiti</button>
+    </main>
+</body>
+</html>

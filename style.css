@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+    background-image: repeating-linear-gradient(to bottom, rgba(255, 165, 0, 0.3), rgba(255, 165, 0, 0.3) 1px, transparent 1px, transparent 30px);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.red {
+    color: red;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.black {
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#task-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.task-list {
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+#favorites-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: gold;
+    border: none;
+    cursor: pointer;
+}
+
+#change-bg {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+}
